@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歴代総理大臣クイズ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header start">
+        <div class="header__container">
+            歴代総理大臣クイズ
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__image">
+            <img src="./images/quiz-image.jpg" alt="スタート画面の画像" class="image-md">
+            <img src="./images/quiz-image_sp.jpg" alt="スタート画面の画像" class="image-sm">
+            <img src="./images/quiz-image_tb.jpg" alt="スタート画面の画像" class="image-tb">
+        </div>
+        <span id="scroll-move" class="scroll"></span>
+        <span id="scroll-text" class="scroll__text">Scroll</span>
+    </main>
+    <section class="buttonsection">
+        <a href="quiz.html" class="quizbutton">クイズスタート</a>
+    </section>
+    <section id="rule" class="rulesection">
+        <div class="sectiontitle">このクイズアプリのルール</div>
+        <div class="ruleboxes">
+            <div class="rulebox">
+                <div class="rulebox__container">
+                    <div class="rulebox__title">問題数</div>
+                    <p class="rulebox__text">
+                        20問以上ある問題から10問答えていただきます。
+                    </p>
+                    <p class="rulebox__text">
+                        現在は10問モードのみですが、全ての総理について答える全問モードも追加予定です。
+                    </p>
+                    <p class="rulebox__text">
+                        また、第30代総理大臣以降についての問題は8月以降に追加いたします。
+                    </p>
+                </div>
+            </div>
+            <div class="rulebox">
+                <div class="rulebox__container">
+                    <div class="rulebox__title">解答は四択</div>
+                    <p class="rulebox__text">
+                        解答は選択問題で、四択です。
+                    </p>
+                    <p class="rulebox__text">
+                        ですので、もし分からなくても勘で答えましょう。
+                    </p>
+                </div>
+            </div>
+            <div class="rulebox">
+                <div class="rulebox__container">
+                    <div class="rulebox__title">解答時間</div>
+                    <p class="rulebox__text">
+                        解答時間は10分です。
+                    </p>
+                    <p class="rulebox__text">
+                        時間内に答えられない場合は、その時点までの正答数を使って正解率を出します。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2021 歴代総理大臣クイズ. All Rights Reserved.</p>
+    </footer>
+</body>
+<script type="text/javascript" src="scripts/start.js"></script>
+<script type="text/javascript" src="scripts/question.js"></script>
+</html>

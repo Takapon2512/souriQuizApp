@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歴代総理大臣クイズ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            歴代総理大臣クイズ
+        </div>
+    </header>
+    <div class="ques-time">
+        <div class="quesnum">
+            <span>Q</span><div id="question__num" class="question__num">1</div>
+        </div>
+        <div class="time">
+            <span id="min">10</span><span>&nbsp;:&nbsp;</span><span id="sec">00</span>
+        </div>
+    </div>
+    <div class="quiz-head">
+        <div class="generation">
+            <div id="generation__num" class="generation__num">12</div><span>代目</span>
+        </div>
+        <div id="name" class="name">西園寺　公望</div>
+    </div>
+    <div id="ques" class="quiz-main">
+        第一次西園寺内閣において、鉄道国有法が制定されたがどんな目的で制定されたかを答えよ。以下の選択肢の中から最も適当なものを選べ。
+    </div>
+    <button id="next" class="nextbtn back">次へ</button>
+    <div id="buttons" class="buttons back">
+        <button id="choice" class="btn">農業の発展</button>
+        <button id="choice" class="btn">国防や輸送統一</button>
+        <button id="choice" class="btn">運賃の値下げ</button>
+        <button id="choice" class="btn">経営の効率化</button>
+    </div>
+</body>
+<script type="text/javascript" src="scripts/question.js"></script>
+<script type="text/javascript" src="scripts/selectquestion.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+</html>
